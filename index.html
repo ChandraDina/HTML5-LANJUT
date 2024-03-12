@@ -6,6 +6,56 @@
     <meta name="viewport" content="widht=device-widht, initial-scale=1">
     <meta name="author" content="Chandra Dina Sefrilian">
     <meta name="nim" conten="233307039">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            bacground-color: #666;
+            padding: 30px
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        nav {
+            float: left;
+            widht: 305;
+            height: 300px;
+            backgorund: #ccc;
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        article {
+            float: left;
+            padding: 20px;
+            widht: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+        }
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        @media (max-widht: 600px) {
+            nav, article {
+                widht: 100%;
+                height: auto;
+            }
+        }
+        </style>
 </head>
 <body>
     <header>
@@ -14,6 +64,14 @@
 
     <section>
         <nav>navigasi halaman link</nav>
+        <a href="index.html">Home</a></li>
+        <li><a href="gambar">Gambar</a></li>
+        <li><a href="event.html">Event</a></li>
+        <li><a href="audio.html">Audio</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="svg.html">SVG</a></li>
+        <li><a href="canvas.html">Canvas</a></li>
+    </ul>
     </nav>
 
     <article>
